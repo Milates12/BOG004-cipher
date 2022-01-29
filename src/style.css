@@ -1,0 +1,135 @@
+@font-face{
+    font-family: Romano;
+    src: url(ROMANUS.ttf);
+}
+
+@font-face{
+    font-family: Dayrom;
+    src: url(dayrom.ttf);
+}
+
+header {
+    padding: 20px;
+    background-color: rgba(161, 136, 98, 0.6);
+    border-bottom:2px solid rgb(255, 255, 255);
+}
+
+ul {
+    list-style-type:none;
+    padding: 0%;
+}
+
+li{
+    font-family: Dayrom;
+    font-size: 15px;
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 20px 20px;
+}
+
+.nav-search {
+    border:2px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    width: 20em;
+    height: 30px;
+    background-color: transparent;
+    padding: 0px 28px 0px 28px;
+    box-sizing: border-box;
+    position: relative;
+    color: rgb(252, 252, 252);
+}
+
+::placeholder{
+    color:rgb(255, 255, 255);
+}
+
+nav {
+    background-color: transparent;
+    height:40px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+body {
+    margin:0%;
+    background-image: url(Julio.png);
+    background-size: cover;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+#root {
+    color:rgb(252, 252, 252);
+    background-color: transparent;
+    text-align: center;
+    width: 100%;
+}
+
+main {
+    display: flex; 
+    justify-content: center;
+}
+
+.sections {
+    width: 600px;
+    height: 450px;
+}
+
+section{
+    display: inline-block;
+    background-color: rgba(161, 136, 98, 0.6);;
+    border:2px solid rgb(255, 255, 255);
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+p{
+    font-family: Dayrom;
+    font-size: 16px; 
+    color:rgb(51, 35, 5);
+    font-weight: bold;
+    margin-bottom: 10PX;
+    margin-top: 10px;
+}
+
+input{
+    align-content: center;
+}
+
+h1 {
+    font-family: Romano;
+    font-size: 45px;
+    text-shadow: 5px 5px rgba(63, 46, 21, 0.699);
+}
+
+span {
+    font-family: Dayrom;
+    font-size: 16px; 
+    color:rgb(51, 35, 5);
+    font-weight: bold;
+}
+
+.info {
+    border:2px solid rgb(255, 255, 255);
+    background-color:transparent ;
+    border-radius: 20px;
+    width: 150px;
+    height: 30px;
+    color: rgb(63, 46, 21);
+    font-size: 15px;
+    padding: 0px 20px 0px 20px;
+}
+
+.buttons {
+    background-color: rgba(63, 46, 21, 0.699);
+    border: none;
+    width: 80px;
+    height: 30px;
+    font-family: Dayrom;
+    color: rgb(255, 255, 255);
+}
