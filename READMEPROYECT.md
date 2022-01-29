@@ -1,8 +1,16 @@
-# Cifrado César
+# Readme del proyecto Cifrado César por Camila Cortés
+## Laboratoria BOG004
 
-## Índice
+cuéntanos cómo pensaste en los usuarios y cuál fue tu proceso para definir el producto final a nivel de experiencia y de interfaz.
 
-* [1. Preámbulo](#1-preámbulo)
+
+Cuáles son los objetivos de estos usuarios en relación con tu producto.
+Cómo crees que el producto que estás creando está resolviendo sus problemas.
+incluye info sobre proceso y decisiones de diseño.
+ README.md explica claramente quiénes son los usuarios y su relación con el producto.
+ README.md explica claramente cómo el producto soluciona los problemas/necesidades de los usuarios.
+
+* [1. Quiénes son los principales usuarios de producto](#1. Quiénes son los principales usuarios de producto)
 * [2. Resumen del proyecto](#2-resumen-del-proyecto)
 * [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
 * [4. Consideraciones generales](#4-consideraciones-generales)
@@ -14,7 +22,7 @@
 
 ***
 
-## 1. Preámbulo
+### 1. Quiénes son los principales usuarios de producto
 
 Cifrar significa codificar. El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher)
 es uno de los primeros métodos de cifrado conocidos. El emperador romano Julio
