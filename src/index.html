@@ -6,9 +6,56 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <header>
+      <nav>
+        <ul>
+          <li><form action=""><input type="search" placeholder="Buscar..." class="nav-search"></form></li>
+          <li><a href="#" class="nav-enlace">Cifrados y descifrados</a></li>
+          <li><a href="#" class="nav-enlace">Inicio</a></li>
+          <li><a href="#" class="nav-enlace">Sobre nosotros</a></li>
+          <li><a href="#" class="nav-enlace">Contactanos</a></li>
+        </ul>
+      </nav>
+    </header>
     <div id="root">
-      <h1>Hello world!</h1>
+      <h1>CIFRADO CESAR PARA CREAR CONTRASEÑAS</h1>
     </div>
+    <main class="menu">
+      <div class="sections">
+      <section>
+        <p>Con esta herramienta puedes crear nuevas contraseñas seguras para usar en tus diferentes cuentas
+          por medio del <a href="https://www.youtube.com/watch?v=U6MnXwJucMM" target="_blank">Cifrado Cesar</a>.
+          <br><br> ¿Cuantos espacios deseas desplazarte?
+        </p>
+        <form action="">
+          <input type="text" id="displacement" class="info">
+          <p>Escribe aquí la contraseña que quieres cifrar</p>
+          <input type="text" id="cipherInput" class="info">
+          <input type="button" value="Cifrar" id="buttonCi" class="buttons">
+        </form>
+        <br>
+        <div>
+          <span id="spanCipher"></span>
+        </div>
+      </section>
+      <section>
+        <p> ¿Quieres volver a ver tu contraseña original? Puedes descifrar la misma contraseña que acabamos de 
+        cifrar ¡por si olvidas la contraseña original!</p>
+        <p>¿Cuántos espacios quieres devolverte?</p>
+        <form action="">
+          <input type="text" id="displacementBack" class="info">
+          <p>Escribe aquí la contraseña que quieres descifrar</p>
+          <input type="text" id="decipherInput" class="info">
+          <input type="button" value="Descifrar" id="decipher" class="buttons">
+        </form>
+        <br>
+        <div>
+          <span id="spanDecipher"></span>
+        </div>
+      </section>
+      </div>
+    </main>
     <script src="index.js" type="module"></script>
   </body>
+
 </html>
