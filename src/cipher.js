@@ -24,7 +24,7 @@ const cipher = {
     for (let i=0; i<message2.length; i++){              // For para recorrer el array y cambiar las letras
       let turnInto2 = message2.charCodeAt(i);           //Convierte cada letra en código ASCII
       if (turnInto2 >= 33 || turnInto2 <= 126) {           //Condicional 'if' para aceptar solamente las letras mayúsculas
-        turnInto2 = (turnInto2+33-parseInt(places2))%94+33;    /* Si se cumple la condición puede aplicar la formula para cifrar la contraseña */
+        turnInto2 = (turnInto2+(33-parseInt(places2)))%94+33;    /* Si se cumple la condición puede aplicar la formula para cifrar la contraseña */
         decipherText += String.fromCharCode(turnInto2);    // Iteración para retornar un 'string' y almacenarlo en la variable 'cipherText'
       }
     }
