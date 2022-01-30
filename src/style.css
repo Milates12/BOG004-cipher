@@ -10,7 +10,7 @@
 
 header {
     padding: 20px;
-    background-color: rgba(161, 136, 98, 0.6);
+    background-color: rgba(161, 136, 98, 0.8);
     border-bottom:2px solid rgb(255, 255, 255);
 }
 
@@ -64,28 +64,67 @@ a {
 }
 
 #root {
-    color:rgb(252, 252, 252);
     background-color: transparent;
     text-align: center;
     width: 100%;
 }
 
-main {
-    display: flex; 
-    justify-content: center;
-}
-
 .sections {
-    width: 600px;
-    height: 450px;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
 }
 
-section{
-    display: inline-block;
-    background-color: rgba(161, 136, 98, 0.6);;
+.section1{
+    float: left;
+    background-color: rgba(161, 136, 98, 0.8);;
     border:2px solid rgb(255, 255, 255);
-    padding: 15px;
-    margin-bottom: 20px;
+    width: 400px;
+    height: 470px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.section2{
+    float: left;
+    background-color: rgba(161, 136, 98, 0.8);;
+    border:2px solid rgb(255, 255, 255);
+    width: 400px;
+    height: 470px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.section3{
+    float: left;
+    background-color: rgba(161, 136, 98, 0.8);;
+    border:2px solid rgb(255, 255, 255);
+    width: 400px;
+    height: 470px;
+    padding: 10px;
+    margin: 10px;
+}
+
+h1 {
+    font-family: Romano;
+    font-size: 45px;
+    color:rgb(252, 252, 252);
+    text-shadow: 5px 5px rgba(63, 46, 21, 0.699);
+    margin: 10px;
+}
+
+h2 {
+    font-family: Romano;
+    color:rgb(51, 35, 5);
+    font-size: 40px;
+    margin: 10px;
+}
+
+h3 {
+    font-family: Romano;
+    color:rgb(51, 35, 5);
+    font-size: 30px;
+    margin: 12px;
 }
 
 p{
@@ -97,15 +136,7 @@ p{
     margin-top: 10px;
 }
 
-input{
-    align-content: center;
-}
 
-h1 {
-    font-family: Romano;
-    font-size: 45px;
-    text-shadow: 5px 5px rgba(63, 46, 21, 0.699);
-}
 
 span {
     font-family: Dayrom;
@@ -132,4 +163,11 @@ span {
     height: 30px;
     font-family: Dayrom;
     color: rgb(255, 255, 255);
+}
+.advertencia {
+    font-family: Dayrom;
+    font-size: 12px; 
+    color:rgb(51, 35, 5);
+    font-weight: bold;
+    font-style: italic;
 }
