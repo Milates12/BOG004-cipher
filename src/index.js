@@ -20,11 +20,11 @@ botonCifrar.addEventListener("click",cipherClick);
     function deCipherClick(){
         let places2 = document.getElementById("displacementBack").value; // Se obtiene el elemento por su ID del offset 'displacementBack'
         let message2 = document.getElementById("decipherInput").value; // Se obtiene el elemento por su ID del 'decipherInput'
-        console.log(places2,message2); //Solamente sirve para saber si la función es correcta en la consola
+        // console.log(places2,message2); //Solamente sirve para saber si la función es correcta en la consola
         let decipherPassword = cipher.decode(places2,message2); //Dejamos en una variable el objeto chiper con su método decode
         document.getElementById("spanDecipher").innerHTML = 'Tu contraseña descifrada es: ' + decipherPassword; // Se invoca el elemento 'spanCipher' con un .innerHTMl para mostrarlo en la página
-        console.log(decipherPassword); // Muestra en la consola el resultado del descifrado para verificar si está bien
+        //console.log(decipherPassword); // Muestra en la consola el resultado del descifrado para verificar si está bien
     }
 botonDescifrar.addEventListener("click", deCipherClick);
 
-console.log(cipher);
+// console.log(cipher);
