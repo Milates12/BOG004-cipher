@@ -2,7 +2,7 @@ const cipher = {
   // ...
    /* Funcion para cifrar la contraseña del usuario */
    encode: (places, message) => {
-    if(places <= 0) {
+    if(places <= 0 || message === []) {
       throw new TypeError("Verifique los valores")
     }
     let cipherText="";                                        //Aquí se almacena las letras que ya fueron cifradas por el 'for'
@@ -19,7 +19,7 @@ const cipher = {
   },
   //Funcion para descrifrar la contraseña del usuario
   decode: (places2, message2) => {
-    if(places2 <= 0) {
+    if(places2 <= 0 || message2 === []) {
       throw new TypeError("Verifique los valores")
     }
     let decipherText="";                                //Aquí se almacena las letras que ya fueron descifradas por el 'for'
