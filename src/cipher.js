@@ -1,4 +1,4 @@
-const cipher = {
+const cipher = {   ///comentario para probar si funciona la conecxion con GitHubWs
   // ...
    /* Funcion para cifrar la contraseña del usuario */
    encode: (places, message) => {
